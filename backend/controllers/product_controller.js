@@ -32,7 +32,6 @@ export const createProduct  = async (req, res) =>{
     }
 }
 
-
 export const changePrice =  async (req, res) =>{
     const{ id } = req.params;
 
